@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE BRASSERIE</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="text.js"></script>
+</head>
+<body>
+    
+       <!-- Siderbar -->
+       <div id="menu" class="menu">
+        <span id="croix" class="span-croix">
+            <svg class="svgCroix" xmlns="http://www.w3.org/2000/svg" height="30" width="27" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+        </span>
+        <ul class="ul-menu">
+            <li class="li-menu">
+                <a class="a-menu" href="#section1">Home</a>
+            </li>
+            <li class="li-menu">
+                <a class="a-menu" href="#section2">About</a>
+            </li>
+            <li class="li-menu">
+                <a class="a-menu" href="#section3">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="overlay"></div> 
+    <button title="menu" id="btnToggle" class="btn-toggle" type="button"><svg xmlns="http://www.w3.org/2000/svg" height="35" width="35" viewBox="0 0 512 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></button>      
+    
+
+    <div class="container">
+        
+    <!-- Page 1 -->
+        <section id="section1" class="section1">
+            <!-- Backgroud image -->
+            <div class="section1-left">
+                <div class="container-titre">
+                    <h1 class="black1">BEER</h1>
+                    <h1 class="black2">WERY</h1>
+                </div>
+                
+            </div>
+            <!-- Presentation -->
+            <div class="section1-right">
+                <div class="section1-top">
+                    <article class="section1-article">
+                        <h2 class="section1-h2">We</h2>
+                        <p class="section1-paragraphe p1">Lorem, ipsum dolor.
+                        Veritatis, accusantium nemo!
+                        Repudiandae, ex officia?
+                        Sit, sed facilis.
+                        Quis, beatae eum!
+                        Dolorum, quasi incidunt.</p>
+                    </article>
+                </div>
+                <div class="section1-bottom">
+                    <div class="section1-container-paragraphe2">
+                        <p class="section1-paragraphe p2">Lorem ipsum dolor sit amet consectetur.
+                        Voluptatem repellendus repudiandae ipsam fuga dolor.
+                        Porro consectetur illum saepe laboriosam placeat.
+                        Qui nesciunt fugiat placeat quia vero.
+                        Provident vero delectus ut expedita pariatur!
+                        Qui sequi vel molestias ad sunt!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Page 2 -->
+        <section id="section2" class="section2">
+            <div class="section2-left">
+                <div class="section2-left-img">
+                    <img class="img-event1" src="img/Brasserie-Bar/light chope beer.jpg" alt="img-event">
+                </div>
+                <div class="section2-left-p">
+                    <p class="p2-event">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="trait-event-container">
+                    <div class="trait-event"></div>
+                </div>
+            </div>
+            <div class="section2-right">
+                <h3 class="title-event">ABOUT</h3>
+                <div class="trait-event2-container">
+                    <div class="trait-event2"></div>
+                </div>
+                <p class="p1-event"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla. In culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="section2-right-img">
+                    <img class="img-event2" src="img/Brasserie-Bar/bar beer tap.jpg" alt="img-event">
+                </div>
+            </div>   
+        </section>
+    <!-- Page 3 -->
+        <section id="section3" class="section3">
+            <section id="section-carte" class="section-carte">
+                <span id="card-croix" class="span-card-croix">
+                    <svg class="svgCroix" xmlns="http://www.w3.org/2000/svg" height="30" width="27" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+                </span>
+
+                <div class="container-beer-card">
+                    <div class="beer1 beer-card">
+                        <div class="item-image">
+                            <img alt="img" src="https://images.pexels.com/photos/1267681/pexels-photo-1267681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                        </div>
+                    <div class="item-name">Mexican Beer</div>
+
+                    <section class="description-card card1">
+                        <p class="description">This beer is imported to Mexico with limon juice and spicy Tabasco flavor.</p>
+                    </section>
+                </div>
+
+
+                <div class="beer2 beer-card">
+                    <div class="item-image">
+                        <img alt="img" src="https://images.pexels.com/photos/1267681/pexels-photo-1267681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">China Beer</div>
+
+                    <section class="description-card card2">
+                        <p class="description">This beer is imported to China with rice and melon juice flavor.</p>
+                    </section>
+                </div>
+
+
+                <div class="beer3 beer-card">
+                    <div class="item-image">
+                        <img alt="img" src="https://images.pexels.com/photos/1267681/pexels-photo-1267681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">French Beer</div>
+
+                    <section class="description-card card3">
+                        <p class="description">This beer imported from France is made with wheat and peach juice flavor.</p>
+                    </section>
+                </div>
+
+
+                <div class="beer4 beer-card">
+                    <div class="item-image">
+                        <img alt="img" src="https://images.pexels.com/photos/1267681/pexels-photo-1267681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">UK Beer</div>
+
+                    <section class="description-card card4">
+                        <p class="description">This English beer is imported from Scotland and is not drunk at tea time.</p>
+                    </section>
+                </div>
+
+
+                <div class="beer5 beer-card">
+                    <div class="item-image">	
+                        <img alt="img" src="https://images.pexels.com/photos/1267681/pexels-photo-1267681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">India Beer</div>
+
+                    <section class="description-card card5">
+                        <p class="description">This spicy Indian beer will awaken your taste buds, not for beginners.</p>
+                    </section>
+                </div>
+
+
+                <div class="beer6 beer-card">
+                    <div class="item-image">	
+                        <img alt="img" src="https://images.pexels.com/photos/1267681/pexels-photo-1267681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">Belgium Beer</div>
+
+                    <section class="description-card card6">
+                        <p class="description">higher in alcool content this beer is the perfect balance in complexity and refinement.</p>
+                    </section>
+                </div>
+
+
+                <div class="beer7 beer-card">
+                    <div class="item-image">	
+                        <img alt="img" src="https://images.pexels.com/photos/1267681/pexels-photo-1267681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">USA Beer</div>
+
+                    <section class="description-card card7">
+                        <p class="description">Bigger, strong in bitterness with a touch of smoke this beer will make you smell Texas flavors.</p>
+                    </section>
+                </div>
+
+
+                <div class="beer8 beer-card">
+                    <div class="item-image">	
+                        <img alt="img" src="https://images.pexels.com/photos/1267681/pexels-photo-1267681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">German Beer</div>
+
+                    <section class="description-card card8">
+                        <p class="description">This beer made in Berlin, is a legacy of energies and passion to techno ravers.</p>
+                    </section>
+                </div>
+
+
+                <div class="beer9 beer-card">
+                    <div class="item-image">	
+                        <img alt="img" src="https://images.pexels.com/photos/1267681/pexels-photo-1267681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">Swiss Beer</div>
+
+                    <section class="description-card card9">
+                        <p class="description">This Swiss beer has been designed to accompany cheeses, with acidity and sweet flavours.</p>
+                    </section>
+                </div>
+            </div>
+
+            <div class="container-food-card">
+                <div class="food1 food-card">
+                    <div class="item-image">
+                        <img alt="img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">Mexican Tapas</div>
+
+                    <section class="description-card card10">
+                        <p class="description">Nachos and grilled Cheddar bowl with raw vegetables beef Tacos.</p>
+                    </section>
+                </div>
+
+
+                <div class="food2 food-card">
+                    <div class="item-image">
+                        <img alt="img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">Fries China</div>
+
+                    <section class="description-card card11">
+                        <p class="description">Fried Vegetable Balls, Chili Garlic and Fried Wontons.</p>
+                    </section>
+                </div>
+
+
+                <div class="food3 food-card">
+                    <div class="item-image">
+                        <img alt="img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">Club Sandwich</div>
+
+                    <section class="description-card card12">
+                        <p class="description">Sandwich with chicken, mozzarella, salad, tomato, hard-boiled egg and homemade mayo.</p>
+                    </section>
+                </div>
+
+
+                <div class="food4 food-card">
+                    <div class="item-image">
+                        <img alt="img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">Afternoon Tea</div>
+
+                    <section class="description-card card13">
+                        <p class="description">Scones, shortcake, pudding, carrot cake, mins pies and the original English cake.</p>
+                    </section>
+                </div>
+
+
+                <div class="food5 food-card">
+                    <div class="item-image">
+                        <img alt="img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">Bollywood Crock</div>
+
+                    <section class="description-card card14">
+                        <p class="description">Paprika cheese ball, tuna curry bite, spicy chicken, vegetable samosa, and garlic naan.</p>
+                    </section>
+                </div>
+
+
+                <div class="food6 food-card">
+                    <div class="item-image">
+                        <img alt="img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">Belgium Fingers</div>
+                    
+                    <section class="description-card card15">
+                        <p class="description">Portion of fries, with duck fat, Belgian-style meatballs, mussels in white wine, Welsh and fricadelles.</p>
+                    </section>
+                </div>
+
+
+                <div class="food7 food-card">
+                    <div class="item-image">
+                        <img alt="img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">Burger fries</div>
+
+                    <section class="description-card card16">
+                        <p class="description">The original Big Cheese-burger, well garnished, served with its large fries and homemade sauce of your choice.</p>
+                    </section>
+                </div>
+
+
+                <div class="food8 food-card">
+                    <div class="item-image">
+                        <img alt="img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">Wurscht Salat</div>
+
+                    <section class="description-card card17">
+                        <p class="description">Gruyere cervelat salad with vinaigrette and sliced roast ham. Served with cold vegetables.</p>
+                    </section>
+                </div>
+
+
+                <div class="food9 food-card">
+                    <div class="item-image">
+                        <img alt="img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                    </div>
+                    <div class="item-name">Swiss Cheese</div>
+                    
+                    <section class="description-card card18">
+                        <p class="description">Emmental, Raclette, Gruyère, tome Vaudoise, Tilsiter and Vacherin mont d'or. Served with bread</p>
+                    </section>
+                </div>
+
+            </section>
+            <div class="overlay2"></div>
+
+            <div class="main">
+                <div class="section3-left">
+                    <h1 class="h1-3">CONTACT</h1>
+                    <div class="trait3-container">
+                        <div class="trait3"></div>
+                    </div>
+                    <div class="btnCard-container">
+                        <button class="btn-card" id="btn-card" type="button">Show menu</button>
+                    </div>
+                </div>
+                <div class="section3-right">
+                    <div class="section3-image">
+                        <img class="img-3" src="img/Brasserie-Bar/exterior bar.jpg" alt="image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- PARTIE PREMIER PLAN -->
+            
+            <div class="container-horaire">
+                <h3 class="horaire-tilte">OPENING HOURS</h3>
+                <ul class="ul-horaires">
+                    <li class="li-horaires">
+                        <p class="h">MONDAY: <span class="lundi-horaires">closed</span></p>
+                        <p class="h">TUESDAY:   5pm - 11pm</p>
+                        <p class="h">WEDNESDAY: 5pm - 11pm</p>
+                        <p class="h">THURSDAY:  5pm - 11pm</p>
+                        <p class="h">FRIDAY:    5pm - 12pm</p>
+                        <p class="h">SATURDAY:  5pm - 12pm</p>
+                        <p class="h">SUNDAY:    8am - 11am</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer">
+                <div class="footer-left">
+                    <h4 class="title-footer">Reservation :</h4>
+                    <div class="tel-mail">
+                        <p class="tel-footer">0 666 666 666</p>
+                        <p class="mail-footer">adress@email.com</p>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="trait-footer-container">
+                        <div class="trait-footer"></div>
+                    </div>
+                    <div class="liens-footer">
+                        <!-- svg a mettre avec liens -->
+                        <ul class="ul-footer">
+                            <li class="li-footer">
+                                <a class="a-footer" href="#">Insta</a>
+                            </li>
+                            <li class="li-footer">
+                                <a class="a-footer" href="#">Facebook</a>
+                            </li>
+                            <li class="li-footer">
+                                <a class="a-footer" href="#">Maps</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </div>
+</body>
+</html>
